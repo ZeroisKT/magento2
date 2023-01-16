@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="tresdadv_miprimercrud_display_text">
+        <observer name="mp_display_text" instance="Tresdadv\MiPrimerCrud\Observer\ChangeDisplayText" />
+    </event>
+    <event name="catalog_controller_product_view">
+        <observer name="BarbanetProductData" instance="Tresdadv\MiPrimerCrud\Observer\Product\Data" />
+    </event>
+</config>
