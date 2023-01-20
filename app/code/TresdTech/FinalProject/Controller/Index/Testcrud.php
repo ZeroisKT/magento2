@@ -1,6 +1,6 @@
 <?php
 
-namespace TresdTech\FinalProject\Controller\Index;
+namespace TresdTech\FinalProject\Controller\Testcrud;
 
 class Index extends \Magento\Framework\App\Action\Action
 {
