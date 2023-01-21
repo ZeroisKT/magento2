@@ -1,7 +1,38 @@
-<?php
-
-/**
- * @var \TresdTech\FinalProject\Block\Display $block
- */
-
-echo $block->sayHello();
+<div class="container">
+    <div class="row justify-content-center align-items-center g-2">
+        <div class="col-12 row">
+            <form>
+                <div class="mb-3 col-6 row">
+                    <legend class="col-form-legend col-md-4">First Name</legend>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" name="inputFirstName" id="inputFirstName" placeholder="First Name">
+                    </div>
+                </div>
+                <div class="mb-3 col-6 row">
+                    <legend class="col-form-legend col-md-4">Last Name</legend>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" name="inputLastName" id="inputLastName" placeholder="Last Name">
+                    </div>
+                </div>
+                <fieldset class="mb-3 col-md-6 row">
+                    <legend class="col-form-legend col-md-4">Email</legend>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" name="inputEmail" id="inputEmail" placeholder="Email">
+                    </div>
+                </fieldset>
+                <fieldset class="mb-3 col-md-6 row">
+                    <legend class="col-form-legend col-md-4">Telephone</legend>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" name="inputTelephone" id="inputTelephone" placeholder="Telephone">
+                    </div>
+                </fieldset>
+                <div class="mb-3 col-md-6 row text-center">
+                    <div class="offset-sm-4 col-sm-8">
+                        <button type="submit" class="btn btn-primary btn-lg">Action</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-6">Relleno</div>
+    </div>
+</div>
